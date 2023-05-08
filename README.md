@@ -1,7 +1,7 @@
 1. **fortran_mpi.tar.gz**: This is just the same normal openmpi but in addition with gcc and g++, it is compiled and linked with gfortran. This allows you to
 compile fortran-based MPI applications with mpi's fotran compiler toolchain. I have already compiled it so you can just run to unpack it:
 
-    ```tar xf fortran_mpi.tar.gz```
+    ```tar xvf fortran_mpi.tar.gz```
   
     - if you are curious on how to compile openmpi with fortran, the key is to just make sure you have gfortran:
   
