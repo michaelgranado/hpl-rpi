@@ -1,1 +1,0 @@
-/home/pi/openmpi/code/openmpi-4.1.1/ompi/mpi/fortran/mpif-h/add_error_string_f.c

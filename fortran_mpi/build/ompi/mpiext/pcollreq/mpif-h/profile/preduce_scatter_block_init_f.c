@@ -1,1 +1,0 @@
-/home/pi/openmpi/code/openmpi-4.1.1/ompi/mpiext/pcollreq/mpif-h/reduce_scatter_block_init_f.c
