@@ -28,4 +28,4 @@ compile fortran-based MPI applications with mpi's fotran compiler toolchain. I h
 
       ```make arch=rpi```
 
-Don't forget to leave a comment, drop a like, and subsribe
+Your executable will be in ```/home/pi/hpl-rpi/hpl-2.3/bin/rpi/```
