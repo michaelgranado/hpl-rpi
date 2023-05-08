@@ -22,7 +22,7 @@ compile fortran-based MPI applications with mpi's fotran compiler toolchain. I h
         cd setup
         source make_generic
         cp Make.UNKNOWN ../Make.rpi
-        ..
+        cd ..
       ```
 4. Now you have to create your own make file. Try to fill it out, and use mine as a reference if you are stuck. Once ready you should be able to compile hpl with:
 
