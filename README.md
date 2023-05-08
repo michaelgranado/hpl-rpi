@@ -3,7 +3,7 @@ compile fortran-based MPI applications with mpi's fotran compiler toolchain. I h
 
     ```tar xvf fortran_mpi.tar.gz```
   
-    - if you are curious on how to compile openmpi with fortran, the key is to just make sure you have gfortran:
+    - **This is not needed, you can move to Step 2** but if you are curious on how to compile openmpi with fortran, the key is to just make sure you have gfortran:
   
       ```sudo apt-get install gfortran```
     
