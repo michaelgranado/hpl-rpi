@@ -13,7 +13,7 @@ compile fortran-based MPI applications with mpi's fotran compiler toolchain. I h
 
       ```
         wget http://www.netlib.org/benchmark/hpl/hpl-2.3.tar.gz
-        tar xzvf hpl-2.3.tar.gz
+        tar xvf hpl-2.3.tar.gz
         cd hpl-2.3
       ```
 3. Generate a new config file for unknown architecture using the make_generic script. Rename it to Make.rpi for consistency.
