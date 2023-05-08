@@ -1,0 +1,4 @@
+mpiext_pcollreq_mpifh.lo: \
+ /home/pi/openmpi/code/openmpi-4.1.1/ompi/mpiext/pcollreq/mpif-h/mpiext_pcollreq_mpifh.c \
+ /usr/include/stdc-predef.h
+/usr/include/stdc-predef.h:
