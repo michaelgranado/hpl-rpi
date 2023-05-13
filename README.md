@@ -16,6 +16,11 @@ compile fortran-based MPI applications with mpi's fortran compiler toolchain. I 
         tar xvf hpl-2.3.tar.gz
         cd hpl-2.3
       ```
+3. Next you need the atlas linear algebra package
+
+      ```
+        sudo apt-get install libatlas-base-dev
+      ```
 3. Generate a new config file for unknown architecture using the make_generic script. Rename it to Make.rpi for consistency.
 
       ```
