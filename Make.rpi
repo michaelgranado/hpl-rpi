@@ -81,7 +81,7 @@ HPLlib       = $(LIBdir)/libhpl.a
 # header files,  MPlib  is defined  to be the name of  the library to be 
 # used. The variable MPdir is only used for defining MPinc and MPlib.
 #
-MPdir        = $(HOME)/hpl-rpi/fortran_mpi/install
+MPdir        = $(HOME)/openmpi/install
 MPinc        = -I $(MPdir)/include
 MPlib        = $(MPdir)/lib/libmpi.so 
 #
@@ -166,12 +166,12 @@ HPL_DEFS     = $(F2CDEFS) $(HPL_OPTS) $(HPL_INCLUDES)
 # - Compilers / linkers - Optimization flags ---------------------------
 # ----------------------------------------------------------------------
 #
-CC           = ($MPdir)/bin/mpicc
+CC           = mpicc
 CCNOOPT      = $(HPL_DEFS) 
 CCFLAGS      = $(HPL_DEFS) 
 #
-LINKER       = ($MPdir)/bin/mpif77
-LINKFLAGS    = -L $(HOME)/hpl-rpi/fortran_mpi/install/lib
+LINKER       = mpif77
+LINKFLAGS    =
 #
 ARCHIVER     = ar
 ARFLAGS      = r
