@@ -166,11 +166,11 @@ HPL_DEFS     = $(F2CDEFS) $(HPL_OPTS) $(HPL_INCLUDES)
 # - Compilers / linkers - Optimization flags ---------------------------
 # ----------------------------------------------------------------------
 #
-CC           = mpicc
+CC           = ($MPdir)/bin/mpicc
 CCNOOPT      = $(HPL_DEFS) 
 CCFLAGS      = $(HPL_DEFS) 
 #
-LINKER       = mpif77
+LINKER       = ($MPdir)/bin/mpif77
 LINKFLAGS    = -L $(HOME)/hpl-rpi/fortran_mpi/install/lib
 #
 ARCHIVER     = ar
