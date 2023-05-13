@@ -171,7 +171,7 @@ CCNOOPT      = $(HPL_DEFS)
 CCFLAGS      = $(HPL_DEFS) 
 #
 LINKER       = mpif77
-LINKFLAGS    = -L /home/pi/hpl-rpi/fortran_mpi/install/lib/ 
+LINKFLAGS    = -L $(HOME)/hpl-rpi/fortran_mpi/install/lib
 #
 ARCHIVER     = ar
 ARFLAGS      = r
