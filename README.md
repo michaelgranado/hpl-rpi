@@ -40,4 +40,9 @@ compile fortran-based MPI applications with mpi's fortran compiler toolchain. I 
 
 Your executable will be in ```/home/pi/hpl-rpi/hpl-2.3/bin/rpi/```
 
-Don't forget to drop a comment, leave a like, and subscribe
+5. Move my HPL.dat file into ```/home/pi/hpl-rpi/hpl-2.3/bin/rpi/```. Set Ps * Qs == Number of Pis * 4 and such that Ps <= Qs.
+
+      ```
+         cd /home/pi/hpl-rpi/hpl-2.3/bin/rpi/
+         cp /home/pi/hpl-rpi/example_HPL.dat HPL.dat 
+      ```
