@@ -1,3 +1,6 @@
+### UCSD IEEE Supercomputing Club Workshop: Compiling & Running HPL on a Raspberry Pi Cluster
+
+
 1. **fortran_mpi.tar.gz**: This is just the same normal openmpi but in addition with gcc and g++, it is compiled and linked with gfortran. This allows you to
 compile fortran-based MPI applications with mpi's fortran compiler toolchain. I have already compiled it so you can just run to unpack it and replace the old openmpi. Maybe keep the old one just in case as well:
 
